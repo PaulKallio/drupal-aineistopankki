@@ -50,6 +50,33 @@ This will log you inside the app container:
 $ make shell
 ```
 
+## SNYK Testing
+
+Snyk testing can be run by installing dependencies with npm on the drupal site:
+
+```bash
+$ npm install
+```
+
+Install Snyk globally:
+```bash
+$ npm install snyk@latest -g
+```
+
+Create Snyk token for yourself:
+```bash
+$ snyk auth
+```
+and select Github.
+
+Environment variable is needed for Snyk to work:
+eg. SNYK_TOKEN=123a456b-123c-456d-789e-123f456g789h
+
+Then
+```bash
+$ snyk test --all-projects
+```
+
 ## Documentation
 
 See [documentatation](https://github.com/City-of-Helsinki/drupal-helfi-platform/tree/main/documentation).
