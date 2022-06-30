@@ -74,7 +74,7 @@ eg. SNYK_TOKEN=123a456b-123c-456d-789e-123f456g789h
 
 Then
 ```bash
-$ snyk test --all-projects
+$ npm run snyk
 ```
 
 ## Documentation
