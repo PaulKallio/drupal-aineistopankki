@@ -13,9 +13,11 @@
         "drupal/core-recommended": "^9.3",
         "drupal/hdbt": "^3.0",
         "drupal/hdbt_admin": "^1.0",
-        "drupal/helfi_azure_fs": "^1.0",
+        "drupal/helfi_azure_fs": "^1.1",
         "drupal/helfi_drupal_tools": "dev-main",
+        "drupal/helfi_gredi": "dev-dev",
         "drupal/helfi_platform_config": "^2.0",
+        "drupal/media_entity_browser": "^2.1",
         "drush/drush": "^10.4 || ^11"
     },
     "require-dev": {
